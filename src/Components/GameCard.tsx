@@ -16,7 +16,7 @@ interface Props {
 }
 
 const GameCards = ({ game }: Props) => {
-  const { toggleColorMode, colorMode } = useColorMode();
+  const { colorMode } = useColorMode();
   const color = colorMode !== "dark" ? "gray.300" : "gray.700";
 
   return (
